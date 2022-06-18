@@ -1,5 +1,5 @@
 import { observer } from 'mobx-react'
-import { useStores } from '../../hooks/useStores'
+import { useStores } from '@/hooks/useStores'
 
 const Test = observer(() => {
     const { userStore } = useStores()

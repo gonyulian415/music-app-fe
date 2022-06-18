@@ -25,3 +25,7 @@
   }
   ```
 - 在vscode设置: 首选项 - 设置 - 搜索decorator - 将Experimental Decorators选项钩上然后保存
+
+----------------------------------------
+## React配置alias
+- 在webpack.config.js里搜索alias，加上 ` '@': path.resolve('src') `

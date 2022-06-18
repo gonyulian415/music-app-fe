@@ -1,5 +1,5 @@
 import React from 'react'
-import UserStore from './UserStore'
+import UserStore from '@/store/UserStore'
 
 
 export const stores = React.createContext({
